@@ -26,7 +26,7 @@
 <resources>
     <color name="rippelColor">#FFFFFF</color>
     <color name="rippelColor2">#ff2f9b34</color>
-    <color name="rippelColor3">#ff46b451</color>
+    <color name="green_normal">#ff46b451</color>
     <color name="white">#ff46b451</color>
     <color name="grey_normal">#ff8a837c</color>
 </resources>

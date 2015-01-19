@@ -1032,5 +1032,6 @@
     <string name="title_activity_test">TestActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_focus">FocusActivity</string>
+    <string name="title_activity_new_main">NewMainActivity</string>
 
 </resources>

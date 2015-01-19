@@ -2,17 +2,17 @@
 <set 
   	xmlns:android="http://schemas.android.com/apk/res/android">
     <translate
-        android:interpolator="@anim/collistion_decelerate_interpolator"
-        android:duration="250" 
-        android:fillAfter="true" 
-        android:startOffset="0" 
-        android:fromYDelta="100.0%p" 
-        android:toYDelta="-25.0%" />
+        android:interpolator="@anim/collistion_accelerate_decelerate_interpolator"
+        android:duration="300"
+        android:fillAfter="true"
+        android:startOffset="0"
+        android:fromYDelta="100.0%p"
+        android:toYDelta="-40.0%" />
     <translate
-        android:interpolator="@android:anim/linear_interpolator"
-        android:duration="120"
+        android:interpolator="@anim/collistion_decelerate_interpolator"
+        android:duration="200"
         android:fillAfter="true" 
-        android:startOffset="250" 
-        android:fromYDelta="-25.0%" 
+        android:startOffset="300"
+        android:fromYDelta="-40.0%" 
         android:toYDelta="0.0%" />
 </set>

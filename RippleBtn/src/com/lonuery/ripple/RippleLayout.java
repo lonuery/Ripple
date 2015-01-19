@@ -50,7 +50,7 @@ public class RippleLayout extends RelativeLayout{
 		
 		final TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.RippleView);
         rippleColor = typedArray.getColor(R.styleable.RippleView_rv_color, 
-        		getResources().getColor(R.color.rippelColor3));	
+        		getResources().getColor(R.color.green_normal));	
         innerRadius = typedArray.getDimension(R.styleable.RippleView_rv_inner_radius,30.0f);
         
         paint = new Paint();
@@ -64,6 +64,12 @@ public class RippleLayout extends RelativeLayout{
         
         canvasHandler = new Handler();
         typedArray.recycle();
+	}
+	
+	public void resetPaintColor(int color){
+		if(paint!=null){
+			paint.setColor(color);
+		}
 	}
 	
 	@Override
@@ -134,8 +140,6 @@ public class RippleLayout extends RelativeLayout{
 	public void addView(View child, int index,
 			android.view.ViewGroup.LayoutParams params) {
 		childView = child;
-		
-		Log.i("addView", "addView:"+childView.getContentDescription());
 		
 		super.addView(child, index, params);
 	}

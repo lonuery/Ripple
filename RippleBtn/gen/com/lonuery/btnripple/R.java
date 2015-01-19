@@ -9,7 +9,7 @@ package com.lonuery.btnripple;
 
 public final class R {
     public static final class anim {
-        public static final int book_decelerate_interpolator=0x7f040000;
+        public static final int collistion_accelerate_decelerate_interpolator=0x7f040000;
         public static final int collistion_decelerate_interpolator=0x7f040001;
         public static final int collistion_import_pc_button=0x7f040002;
         public static final int collistion_import_pc_button_out=0x7f040003;
@@ -130,10 +130,10 @@ containing a value of this type.
         public static final int rv_zoomScale=0x7f010009;
     }
     public static final class color {
+        public static final int green_normal=0x7f060002;
         public static final int grey_normal=0x7f060004;
         public static final int rippelColor=0x7f060000;
         public static final int rippelColor2=0x7f060001;
-        public static final int rippelColor3=0x7f060002;
         public static final int white=0x7f060003;
     }
     public static final class dimen {
@@ -171,31 +171,40 @@ containing a value of this type.
         public static final int shape_grey_ball_shadow=0x7f020013;
     }
     public static final class id {
-        public static final int action_settings=0x7f0b000e;
+        public static final int action_settings=0x7f0b0015;
         public static final int add=0x7f0b0004;
         public static final int doubleRipple=0x7f0b0000;
-        public static final int first_ball=0x7f0b000b;
-        public static final int import_container=0x7f0b000a;
-        public static final int iv_close=0x7f0b0008;
+        public static final int first_ball=0x7f0b0012;
+        public static final int import_container=0x7f0b0011;
+        public static final int iv_close=0x7f0b0010;
         public static final int main_activity_import_menu=0x7f0b0005;
-        public static final int menu=0x7f0b0006;
         public static final int more2=0x7f0b0003;
+        public static final int new_first_ball=0x7f0b000b;
+        public static final int new_import_container=0x7f0b000a;
+        public static final int new_iv_close=0x7f0b0009;
+        public static final int new_rl_close=0x7f0b0008;
+        public static final int new_rl_pc=0x7f0b000c;
+        public static final int new_rl_sdcard=0x7f0b000d;
+        public static final int new_v_shadow=0x7f0b0007;
+        public static final int newripple=0x7f0b0006;
         public static final int rectangle=0x7f0b0001;
-        public static final int rl_close=0x7f0b0007;
-        public static final int rl_pc=0x7f0b000c;
-        public static final int rl_sdcard=0x7f0b000d;
+        public static final int rl_close=0x7f0b000f;
+        public static final int rl_pc=0x7f0b0013;
+        public static final int rl_sdcard=0x7f0b0014;
         public static final int simpleRipple=0x7f0b0002;
-        public static final int v_shadow=0x7f0b0009;
+        public static final int v_shadow=0x7f0b000e;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int widget_import_layout=0x7f030001;
-        public static final int widget_import_menu=0x7f030002;
+        public static final int activity_new_main=0x7f030001;
+        public static final int widget_import_layout=0x7f030002;
+        public static final int widget_import_menu=0x7f030003;
     }
     public static final class menu {
         public static final int focus=0x7f0a0000;
         public static final int main=0x7f0a0001;
-        public static final int test=0x7f0a0002;
+        public static final int new_main=0x7f0a0002;
+        public static final int test=0x7f0a0003;
     }
     public static final class raw {
         public static final int pop=0x7f050000;
@@ -1096,6 +1105,7 @@ containing a value of this type.
         public static final int tdownload_waiting=0x7f080325;
         public static final int theme_used=0x7f0801b9;
         public static final int title_activity_focus=0x7f0803d6;
+        public static final int title_activity_new_main=0x7f0803d7;
         public static final int title_activity_test=0x7f0803d4;
         public static final int toast_already_download=0x7f0802ae;
         public static final int toast_novel_loading_failed=0x7f080286;
