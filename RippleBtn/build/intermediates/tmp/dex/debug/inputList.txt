@@ -1,0 +1,2 @@
+C:\github\Ripple\RippleBtn\build\intermediates\classes\debug
+C:\github\Ripple\RippleBtn\build\intermediates\pre-dexed\debug\android-support-v4-d4785a1e2bdb37dd23f6fb94e87b77a1e0ea3526.jar
